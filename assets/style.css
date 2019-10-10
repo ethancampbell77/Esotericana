@@ -1,0 +1,128 @@
+/* Esotericana Style Sheet*/
+
+img.mainLogo {
+    display: block;
+    margin-top: 5%;
+    margin-right: auto;
+    margin-bottom: 5%;
+    margin-left: auto;
+    width: 70%;
+}
+ul.navbar {
+    height: 60px;
+}
+
+
+div.aboutUs,
+div.services {
+    margin-top: 40px;
+    margin-right: 20px;
+    margin-bottom: 70px;
+    margin-left: 20px;
+}
+
+.contact {
+    margin-top: 40px;
+    text-align: center;
+    /* margin-right: auto; */
+    margin-bottom: 70px;
+    /* margin-left: auto; */
+    
+}
+
+img.esoSticker {
+    max-width: 500px;
+}
+h2{
+    color: rgb(63, 61, 61);
+}
+
+h2.archive {
+    margin-bottom: 25px;
+}
+
+img.aboutPic{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    max-width: 250px;
+}
+
+p.aboutText {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+h2.contactHead {
+    color: rgb(63, 61, 61);
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+p.contactText {
+    margin-bottom: 30px;
+    font-weight: 800;
+}
+
+.footer {
+    text-align: center;
+    font-size: 12px;
+    color: rgb(100, 98, 98);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: rgb(250, 250, 250);
+    /* box-shadow: 3px -3px 5px rgb(145, 143, 143); */
+}
+
+a.socialMedia {
+    padding-top: 70px;
+    margin-bottom: 30px;
+    padding: 10px;
+}
+
+hr.buffers {
+    margin-top: 15%;
+    margin-bottom: 15%;
+}
+
+/* Photo Gallery styling */
+
+.gallery {
+    -webkit-column-count: 3;
+    -moz-column-count: 3;
+    column-count: 3;
+    -webkit-column-width: 33%;
+    -moz-column-width: 33%;
+    column-width: 33%; }
+    .gallery .pics {
+    -webkit-transition: all 350ms ease;
+    transition: all 350ms ease; }
+    .gallery .animation {
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1); }
+    
+    @media (max-width: 450px) {
+    .gallery {
+    -webkit-column-count: 1;
+    -moz-column-count: 1;
+    column-count: 1;
+    -webkit-column-width: 100%;
+    -moz-column-width: 100%;
+    column-width: 100%;
+    }
+    }
+    
+    @media (max-width: 400px) {
+    .btn.filter {
+    padding-left: 1.1rem;
+    padding-right: 1.1rem;
+    }
+    }
+
+    @media (max-width: 600px) {
+    img.aboutPic{
+        max-height: 80%;
+    }
+    }
+    
+   

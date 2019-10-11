@@ -9,12 +9,13 @@
 
 img.mainLogo {
     display: block;
-    margin-top: 3%;
+    margin-top: 5%;
     margin-right: auto;
     margin-bottom: 3%;
     margin-left: auto;
     width: 70%;
 }
+
 ul.navbar {
     height: 60px;
 }
@@ -126,9 +127,9 @@ hr.buffers {
     }
     }
 
-    @media (max-width: 600px) {
+    @media (max-width: 850px) {
     img.aboutPic{
-        max-height: 250px;
+        max-width: 20%;
     }
     }
     

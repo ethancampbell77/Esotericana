@@ -126,10 +126,10 @@ hr.buffers {
     }
     }
 
-    /* @media (max-width: 600px) {
+    @media (max-width: 600px) {
     img.aboutPic{
-        max-height: 800px;
+        max-height: 400px;
     }
-    } */
+    }
     
    

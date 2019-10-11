@@ -1,10 +1,17 @@
 /* Esotericana Style Sheet*/
 
+/* div.headContainer {
+    position: fixed;
+    top: 0;
+    z-index: 200;
+    width: 100vw;
+} */
+
 img.mainLogo {
     display: block;
-    margin-top: 5%;
+    margin-top: 3%;
     margin-right: auto;
-    margin-bottom: 5%;
+    margin-bottom: 3%;
     margin-left: auto;
     width: 70%;
 }
@@ -12,14 +19,14 @@ ul.navbar {
     height: 60px;
 }
 
-
+/* 
 div.aboutUs,
 div.services {
     margin-top: 40px;
     margin-right: 20px;
     margin-bottom: 70px;
     margin-left: 20px;
-}
+} */
 
 .contact {
     margin-top: 40px;
@@ -119,10 +126,10 @@ hr.buffers {
     }
     }
 
-    @media (max-width: 600px) {
+    /* @media (max-width: 600px) {
     img.aboutPic{
-        max-height: 80%;
+        max-height: 800px;
     }
-    }
+    } */
     
    

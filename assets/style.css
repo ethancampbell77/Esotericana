@@ -129,8 +129,10 @@ hr.buffers {
 
     @media (max-width: 850px) {
     img.aboutPic{
-        max-width: 20%;
+        max-width: 100%;
+        max-height: auto;
     }
-    }
-    
-   
+    img.mainLogo {
+        margin-top: 20%;
+    }   
+}

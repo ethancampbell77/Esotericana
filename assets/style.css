@@ -128,7 +128,7 @@ hr.buffers {
 
     @media (max-width: 600px) {
     img.aboutPic{
-        max-height: 400px;
+        max-height: 250px;
     }
     }
     
